@@ -1,0 +1,9 @@
+.container{
+  background: #111827;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.light_theme{
+  background: #ffffff;
+}
