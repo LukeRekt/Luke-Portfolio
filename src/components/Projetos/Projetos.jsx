@@ -22,7 +22,7 @@ export default function Projetos(props) {
         </div>
         
         <p className={ThemeData.theme ? styles.contentText : styles.contentText + ' ' + styles.light_mode}>{props.texto} </p>
-        <p className={ThemeData.theme ? styles.readMore : styles.readMore + ' ' + styles.light_mode}>Ler mais ></p>
+        <p className={ThemeData.theme ? styles.readMore : styles.readMore + ' ' + styles.light_mode}>Ler mais</p>
       </div>
        
       </div>
