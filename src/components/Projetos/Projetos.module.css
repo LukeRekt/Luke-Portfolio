@@ -27,7 +27,7 @@
   justify-content: center;
 
 }
-.rightCard h3{
+.cardTittle{
   font-size: 1.25rem;
   line-height: 1.75rem;
   color: #F3F4F6;
@@ -44,7 +44,7 @@
   width: 100% !important;
   text-align: start !important;
   font-size: 1rem !important;
-  color: #E5E7EB !important;
+  color: #E5E7EB;
   font-weight: 400 !important;
   line-height: 1.5rem !important;
 }
@@ -63,8 +63,11 @@
   text-align: start !important;
   padding: 0 !important;
   margin: 0 !important;
-  color: white !important;
+  color: white;
   font-size: 1rem !important;
   line-height: 1.5rem !important;
   font-weight: 600 !important;
+}
+.light_mode{
+  color: black !important;
 }

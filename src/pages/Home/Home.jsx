@@ -32,8 +32,8 @@ export default function Home() {
 
           </div>
         </div>
-        <p className={ThemeData.theme == true ? styles.dark_font : styles.light_font}>Meus projetos <BsArrowDown/></p>
-        <div className={styles.projectsPost}>
+        <p className={ThemeData.theme == true ? styles.dark_font : styles.light_font}>Posts recentes do Blog<BsArrowDown/></p>
+        <div className={styles.blogPosts}>
         <Projetos imagem="https://www.notion.so/image/https:%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F360c8017-736f-4057-8a04-d9b5c38a9329%2Fvue-django.webp?table=block&id=985f575f-ff8e-4026-ac18-1d6765924786&cache=v2"
           tags={["#Vue.js", "#JavaScript", "#Ronaldo"]}
           texto="Texto vai aqui Texto vai aqui Texto vai aqui Texto vai aqui 

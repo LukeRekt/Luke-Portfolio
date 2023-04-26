@@ -12,17 +12,17 @@ export default function Projetos(props) {
       <img src={props.imagem}/>
     </div>
       <div className={styles.rightCard}>
-      <h3>Probot fluxo catalogador</h3>
-      <div className={styles.cardText}>
-        <p className={styles.postDate}>{props.dataPublic}</p>
+      <h3 className={ThemeData.theme ? styles.cardTittle : styles.cardTittle + ' ' + styles.light_mode}>Probot fluxo catalogador</h3>
+      <div className={ThemeData.theme ? styles.cardText : styles.cardText + ' ' + styles.light_mode}>
+        <p className={ThemeData.theme ? styles.postDate : styles.postDate + ' ' + styles.light_mode}>{props.dataPublic}</p>
         <div className={styles.tagsContainer}>
           {props.tags.map((item) => {
           return <CardTags tag={item}/>
           })}
         </div>
         
-        <p className={styles.contentText}>{props.texto} </p>
-        <p className={styles.readMore}>Ler mais ></p>
+        <p className={ThemeData.theme ? styles.contentText : styles.contentText + ' ' + styles.light_mode}>{props.texto} </p>
+        <p className={ThemeData.theme ? styles.readMore : styles.readMore + ' ' + styles.light_mode}>Ler mais ></p>
       </div>
        
       </div>

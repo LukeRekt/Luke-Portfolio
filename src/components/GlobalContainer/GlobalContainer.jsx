@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "./GlobalContainer.module.css"
 import {ThemeContext} from '../../Theme.jsx'
+import Footer from '../Footer/Footer';
 export default function GlobalContainer(props) {
   const ThemeData = React.useContext(ThemeContext);
   return (
@@ -10,6 +11,8 @@ export default function GlobalContainer(props) {
 
 
         {props.children}
+        <Footer/>
       </div>
+
     </>);
 }
