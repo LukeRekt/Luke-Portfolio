@@ -3,6 +3,10 @@
   padding: 0;
  
 }
+#root{
+  height: 100%;
+
+}
 :root {
   --background: #ffffff;
   --text-primary: #000;
@@ -10,6 +14,7 @@
   --accent: #8e05c2;
   --border: #333;
   --form-bg: #fff;
+  
 }
 
 [data-theme='dark'] {

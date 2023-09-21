@@ -1,3 +1,6 @@
+.container{
+  
+}
 .container svg{
   background: rgba(243,244,246, 0.05);
   border-radius: 50px;
@@ -5,6 +8,7 @@
   align-items: center;
   cursor: pointer;
   font-size: 20px !important;
+  
 
 }
 .sunLogo{
@@ -13,4 +17,5 @@
 }
 .moonLogo{
     box-shadow: 0px 0px 0px 10px #8533ff;
+    
 }

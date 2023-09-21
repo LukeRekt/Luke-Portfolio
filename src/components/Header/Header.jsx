@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <>
       <div className={styles.container}>
-        <div className={ThemeData.theme == true ? styles.Logo : styles.Logo + ' ' + styles.light_font}>Luke<span>{`</`}<b>DEV</b>{`>`}</span></div>
+        <div className={ThemeData.theme == true ? styles.Logo : styles.Logo + ' ' + styles.light_font}>Lucas<span>{`</`}<b>Codes</b>{`>`}</span></div>
         <div className={styles.Nav}>
         <ul className={ThemeData.theme ? styles.NavList : styles.NavList + ' ' + styles.light_theme}>
         <li>Blog</li>

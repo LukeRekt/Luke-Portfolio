@@ -6,7 +6,7 @@ import GlobalContainer from './components/GlobalContainer/GlobalContainer'
 import {ThemeContext} from './Theme.jsx'
 
 export default function App() {
-    const [theme, setTheme] = React.useState(true)
+    const [theme, setTheme] = React.useState(false)
 
   const changeTheme = () => {
     setTheme(!theme)
