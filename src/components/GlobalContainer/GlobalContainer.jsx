@@ -11,7 +11,7 @@ export default function GlobalContainer(props) {
 
 
         {props.children}
-        <Footer/>
+       
       </div>
 
     </>);

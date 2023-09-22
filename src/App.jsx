@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Home from './pages/Home/Home'
 import GlobalContainer from './components/GlobalContainer/GlobalContainer'
 import {ThemeContext} from './Theme.jsx'
+import Footer from './components/Footer/Footer'
 
 export default function App() {
     const [theme, setTheme] = React.useState(false)
@@ -16,6 +17,8 @@ export default function App() {
     <GlobalContainer>
       <Header/>
       <Home/>
+      
+      <Footer/>
     </GlobalContainer>
          </ThemeContext.Provider>
   )

@@ -11,3 +11,8 @@
   margin-right: 5px;
   font-weight: 500;
 }
+@media (max-width: 600px){
+  .container{
+    font-size: 3vw;
+  }
+}

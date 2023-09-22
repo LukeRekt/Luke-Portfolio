@@ -11,7 +11,7 @@ export default function Header() {
         <div className={ThemeData.theme == true ? styles.Logo : styles.Logo + ' ' + styles.light_font}>Lucas<span>{`</`}<b>Codes</b>{`>`}</span></div>
         <div className={styles.Nav}>
         <ul className={ThemeData.theme ? styles.NavList : styles.NavList + ' ' + styles.light_theme}>
-        <li>Blog</li>
+
         <li>Sobre</li>
         <li>Contato</li>
         <li><BsGithub style={{color: "#8533ff"}}/></li>

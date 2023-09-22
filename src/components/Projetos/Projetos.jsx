@@ -6,7 +6,7 @@ import {ThemeContext} from '../../Theme.jsx'
 export default function Projetos(props) {
      const ThemeData = React.useContext(ThemeContext);
   return(
-    <>
+    <div className={styles.cardAlign}>
     <div className={styles.container}>
     <div className={styles.leftCard}>
       <img src={props.imagem}/>
@@ -28,5 +28,5 @@ export default function Projetos(props) {
       </div>
        
     </div>
-    </>)
+    </div>)
 }
